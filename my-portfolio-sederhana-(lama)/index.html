@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./public/css/finaly.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@3.0.0-beta.6/dist/aos.css" />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar bg-gray-800 p-4 fixed w-full z-10">
+      <div class="container mx-auto flex justify-between items-center">
+        <div class="flex items-center">
+          <a href="#" class="text-yellow-400 text-lg font-semibold">Tedi Hanafiah</a>
+        </div>
+        <div class="font-body hidden md:flex space-x-6 xl:space-x-7">
+          <a href="#atas" class="text-white hover:text-yellow-400 transition duration-300">HOME</a>
+          <a href="#aboutme" class="text-white hover:text-yellow-400 transition duration-300">ABOUT ME</a>
+          <a href="#passion" class="text-white hover:text-yellow-400 transition duration-300">PASSION</a>
+          <a href="#experience" class="text-white hover:text-yellow-400 transition duration-300">EXPERIENCE</a>
+          <a href="#work" class="text-white hover:text-yellow-400 transition duration-300">WORK</a>
+          <a href="#contact" class="text-white hover:text-yellow-400 pr-10 transition duration-300">CONTACT</a>
+        </div>
+        <div class="md:hidden">
+          <button id="mobile-menu-button" class="text-white">
+            <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+      <div id="mobile-menu" class="hidden md:hidden">
+        <a href="#atas" class="block py-2 px-4 text-white hover:text-yellow-400 transition duration-300">Home</a>
+        <a href="#aboutme" class="block py-2 px-4 text-white hover:text-yellow-400 transition duration-300">About Me</a>
+        <a href="#passion" class="block py-2 px-4 text-white hover:text-yellow-400 transition duration-300">Passion</a>
+        <a href="#experience" class="block py-2 px-4 text-white hover:text-yellow-400 transition duration-300">Experience</a>
+        <a href="#work" class="block py-2 px-4 text-white hover:text-yellow-400 transition duration-300">Work</a>
+        <a href="#contact" class="block py-2 px-4 text-white hover:text-yellow-400 transition duration-300">Contact</a>
+      </div>
+    </nav>
+    <!-- AKHIR NAVBAR -->
+
+    <!-- bagian awal -->
+    <div class="bg-slate-700 md:flex md:flex-row md:items-center md:pt-32 md:w-full md:px-10 xl:w-full" id="atas">
+      <div class="bagsatu mx-auto pt-32 w-56 md:w-72 md:pb-72 px-4 xl:w-96 xl:pt-2">
+        <img src="./img/tedi.png" />
+      </div>
+      <div class="bagdua md:w-2/3 basis-1/2 md:px-0 xl:mr-20 xl:pb-40">
+        <h2 class="font-body text-center text-3xl text-white py-10 md:text-4xl xl:text-6xl"><span class="static text-yellow-400">I'M </span><span id="typed-text"></span></h2>
+        <p class="font-body text-center px-10 text-white xl:text-xl">WELCOME ! I am a web developer from Tangerang~Indonesia, click contact for more information.</p>
+        <div class="font-body button flex justify-center mt-10 pb-40 xl:mt-20">
+          <a href="https://wa.me/62895395316970" target="_blank" class="conatas text-1xl bg-yellow-400 px-4 py-2 rounded-lg mx-3 md:text-1xl xl:text-2xl xl:mx-8">Contact</a>
+          <button class="downcv text-1xl font-semibold bg-red-800 px-4 py-2 rounded-lg text-white md:text-1xl xl:text-2xl">
+            <a href="https://drive.google.com/file/d/1K7osNafOLWA8kw48ImeSUSmYU8CsDWw1/view?usp=sharing" target="_blank" rel="noopener noreferrer">Download CV</a>
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- bagian akhir -->
+    <!-- bagian about me -->
+    <div class="aboutme bg-gray-300" id="aboutme">
+      <h1 data-aos="zoom-in" data-aos-duration="1000" class="font-body text-2xl py-7 text-center text-slate-700 pt-24 md:mb-10 md:text-4xl">ABOUT ME</h1>
+      <div class="teks text-center px-5 pb-28 md:flex">
+        <div class="w-full md:w-1/2 text-justify md:text-center md:mb-5 xl:pl-20">
+          <p class="pabout1 font-inter mb-5 md:px-5 md:text-justify">
+            Hello! I am Tedi Hanafiah, 21 years old, from Tangerang. CurrentlyI am studying at the University of Tangerang Raya, while my passion for Information Technology is growing. The magic of technological transformation of the world
+            has become hypnotizing and enthralling to me. My passion for coding and algorithm innovation inspires endless exploration.
+          </p>
+        </div>
+        <div class="w-full md:w-1/2 text-justify md:text-center md:pb-40 xl:pr-20">
+          <p class="pabout2 font-inter md:px-5 md:text-justify">
+            I feel compelled to overcome complex challenges and make a meaningful contribution in the digital realm that continues to metamorphose. I firmly believe that technology pave the way for a brighter future, and I promise to always
+            be a relevant part of a changing world. Through continuous learning, I am determined to understand more deeply the IT aspects. I also have a deep interest in UI-UX programming and graphic design.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- akhir bagian about me -->
+    <!-- passion -->
+    <div class="passion bg-slate-700" id="passion">
+      <h1 data-aos="zoom-in" data-aos-duration="1000" class="font-body text-2xl pb-12 text-center text-yellow-400 pt-24 md:text-4xl">PASSION</h1>
+      <div class="xl:flex">
+        <div data-aos="zoom-in" data-aos-duration="1200" class="card mt-12">
+          <div class="w-28 md:w-44 xl:w-44 mx-auto"><img src="./img/passion-dsain.png" alt="" /></div>
+          <div class="text-center px-5">
+            <h2 class="mb-4 text-xl font-semibold mt-10 text-white">Dsain Grafis</h2>
+            <p class="px-3 text-white md:px-16">Channeling creativity through visuals, creating unique stories that inspire. Design is a language of expression without limits!</p>
+          </div>
+        </div>
+
+        <div data-aos="zoom-in" data-aos-duration="1200" class="card mt-16">
+          <div class="w-32 md:w-44 xl:w-48 m-auto"><img src="./img/web.png" alt="" /></div>
+          <div class="text-center px-5">
+            <h2 class="mb-4 text-xl font-semibold mt-10 text-white">Web Developers</h2>
+            <p class="px-3 text-white md:px-16">Combine logic and creativity to create interactive displays that connect and deliver value to users.</p>
+          </div>
+        </div>
+
+        <div data-aos="zoom-in" data-aos-duration="1200" class="card mt-12 pb-28">
+          <div class="w-28 md:w-44 xl:w-44 m-auto"><img src="./img/fashion.png" alt="" /></div>
+          <div class="text-center px-5">
+            <h2 class="mb-4 text-xl font-semibold mt-10 text-white">Fashion Design</h2>
+            <p class="px-3 text-white md:px-16">Drawing inspiration from everyday life, creating unique clothing that conveys identity and personal style.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- akhir passion -->
+
+    <!-- bagian experince -->
+    <div class="experience bg-gray-300" id="experience">
+      <h1 data-aos="zoom-in" data-aos-duration="1000" class="text-2xl font-body pb-8 text-center text-slate-700 pt-24 md:text-4xl">EXPERINCE</h1>
+      <p class="text-center mb-10 px-7 md:px-20">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias dolorem facilis consequuntur dolores autem eius fugiat ullam! Illo cum sed dolore voluptate iste, impedit veritatis!</p>
+
+      <div class="grid grid-cols-3 place-items-center gap-5 pb-40 px-10 md:px-20">
+        <div data-aos="flip-left" data-aos-duration="1000" class="w-10 transition-transform transform hover:scale-150">
+          <img class="filter grayscale" src="./img/icon-techs/bootstrap-7-1175254.png" alt="" onmouseover="this.classList.remove('grayscale')" onmouseout="this.classList.add('grayscale')" />
+        </div>
+
+        <div data-aos="flip-left" data-aos-duration="1000" class="w-10 transition-transform transform hover:scale-150">
+          <img class="filter grayscale" src="./img/icon-techs/codeigniter-4-1175201.png" alt="" onmouseover="this.classList.remove('grayscale')" onmouseout="this.classList.add('grayscale')" />
+        </div>
+
+        <div data-aos="flip-left" data-aos-duration="1000" class="w-10 transition-transform transform hover:scale-150">
+          <img class="filter grayscale" src="./img/icon-techs/css3-8-1175200.png" alt="" onmouseover="this.classList.remove('grayscale')" onmouseout="this.classList.add('grayscale')" />
+        </div>
+
+        <div data-aos="flip-left" data-aos-duration="1000" class="w-10 transition-transform transform hover:scale-150">
+          <img class="filter grayscale" src="./img/icon-techs/html5-42-1175210.png" alt="" onmouseover="this.classList.remove('grayscale')" onmouseout="this.classList.add('grayscale')" />
+        </div>
+
+        <div data-aos="flip-left" data-aos-duration="1000" class="w-10 transition-transform transform hover:scale-150">
+          <img class="filter grayscale" src="./img/icon-techs/java-60-1174953.png" alt="" onmouseover="this.classList.remove('grayscale')" onmouseout="this.classList.add('grayscale')" />
+        </div>
+
+        <div data-aos="flip-left" data-aos-duration="1000" class="w-10 transition-transform transform hover:scale-150">
+          <img class="filter grayscale" src="./img/icon-techs/javascript-24-1174950.png" alt="" onmouseover="this.classList.remove('grayscale')" onmouseout="this.classList.add('grayscale')" />
+        </div>
+
+        <div data-aos="flip-left" data-aos-duration="1000" class="w-10 transition-transform transform hover:scale-150">
+          <img class="filter grayscale" src="./img/icon-techs/jquery.png" alt="" onmouseover="this.classList.remove('grayscale')" onmouseout="this.classList.add('grayscale')" />
+        </div>
+
+        <div data-aos="flip-left" data-aos-duration="1000" class="w-10 transition-transform transform hover:scale-150">
+          <img class="filter grayscale" src="./img/icon-techs/laravel.png" alt="" onmouseover="this.classList.remove('grayscale')" onmouseout="this.classList.add('grayscale')" />
+        </div>
+
+        <div data-aos="flip-left" data-aos-duration="1000" class="w-10 transition-transform transform hover:scale-150">
+          <img class="filter grayscale" src="./img/icon-techs/materializecss.png" alt="" onmouseover="this.classList.remove('grayscale')" onmouseout="this.classList.add('grayscale')" />
+        </div>
+
+        <div data-aos="flip-left" data-aos-duration="1000" class="w-10 transition-transform transform hover:scale-150">
+          <img class="filter grayscale" src="./img/icon-techs/mysql-21-1174941.png" alt="" onmouseover="this.classList.remove('grayscale')" onmouseout="this.classList.add('grayscale')" />
+        </div>
+
+        <div data-aos="flip-left" data-aos-duration="1000" class="w-10 transition-transform transform hover:scale-150">
+          <img class="filter grayscale" src="./img/icon-techs/php.png" alt="" onmouseover="this.classList.remove('grayscale')" onmouseout="this.classList.add('grayscale')" />
+        </div>
+        <div data-aos="flip-left" data-aos-duration="1000" class="w-10 transition-transform transform hover:scale-150">
+          <img class="filter grayscale" src="./img/icon-techs/java-60-1174953.png" alt="" onmouseover="this.classList.remove('grayscale')" onmouseout="this.classList.add('grayscale')" />
+        </div>
+      </div>
+
+      <div class="grid grid-cols-3 place-items-center gap-5 pb-40 px-10 md:px-20">
+        <div data-aos="flip-left" data-aos-duration="1000" class="w-10 transition-transform transform hover:scale-150">
+          <img class="filter grayscale" src="./img/icon-tools/adobe-photoshop-cc.png" alt="" onmouseover="this.classList.remove('grayscale')" onmouseout="this.classList.add('grayscale')" />
+        </div>
+        <div data-aos="flip-left" data-aos-duration="1000" class="w-10 transition-transform transform hover:scale-150">
+          <img class="filter grayscale" src="./img/icon-tools/chrome.png" alt="" onmouseover="this.classList.remove('grayscale')" onmouseout="this.classList.add('grayscale')" />
+        </div>
+        <div data-aos="flip-left" data-aos-duration="1000" class="w-10 transition-transform transform hover:scale-150">
+          <img class="filter grayscale" src="./img/icon-tools/firefox-34-1174962.png" alt="" onmouseover="this.classList.remove('grayscale')" onmouseout="this.classList.add('grayscale')" />
+        </div>
+        <div data-aos="flip-left" data-aos-duration="1000" class="w-10 transition-transform transform hover:scale-150">
+          <img class="filter grayscale" src="./img/icon-tools/Github_3.png" alt="" onmouseover="this.classList.remove('grayscale')" onmouseout="this.classList.add('grayscale')" />
+        </div>
+        <div data-aos="flip-left" data-aos-duration="1000" class="w-10 transition-transform transform hover:scale-150">
+          <img class="filter grayscale" src="./img/icon-tools/visualstudio-1-1174964.png" alt="" onmouseover="this.classList.remove('grayscale')" onmouseout="this.classList.add('grayscale')" />
+        </div>
+        <div data-aos="flip-left" data-aos-duration="1000" class="w-10 transition-transform transform hover:scale-150">
+          <img class="filter grayscale" src="./img/icon-tools/xampp-newsletter-logo.png" alt="" onmouseover="this.classList.remove('grayscale')" onmouseout="this.classList.add('grayscale')" />
+        </div>
+      </div>
+    </div>
+    <!-- akhir bagian experince -->
+
+    <!-- work -->
+    <div class="work pt-24 bg-slate-700" id="work">
+      <h1 data-aos="zoom-in" data-aos-duration="1000" class="font-body text-2xl text-center mb-10 text-yellow-400 md:text-4xl xl:mb-20">WORK</h1>
+      <div class="xl:flex mx-auto">
+        <div class="work1 flex justify-center items-center mb-16 xl:flex mx-auto" id="work">
+          <div class="work1 text-center">
+            <div class="w-52"><img src="./img/sdit.png" alt="" /></div>
+            <button class="bg-yellow-400 text-sm font-semibold hover:bg-yellow-500 p-2 rounded-lg mt-5">
+              <a href="https://tedihanafe.github.io/sdit-insangemilang-cikupa/">Go Fissit</a>
+            </button>
+          </div>
+        </div>
+
+        <div class="work2 flex justify-center items-center mb-16 xl:flex mx-auto" id="work">
+          <div class="work1 text-center">
+            <div class="w-52"><img src="./img/minyak.png" alt="" /></div>
+            <button class="bg-yellow-400 text-sm font-semibold hover:bg-yellow-500 p-2 rounded-lg mt-5">
+              <a href="https://tedihanafe.github.io/web-toko-minyakwangi/">Go Fissit</a>
+            </button>
+          </div>
+        </div>
+
+        <div class="work3 flex justify-center items-center xl:flex mx-auto" id="work">
+          <div class="work1 text-center pb-20">
+            <div class="w-52"><img src="./img/kedai.png" alt="" /></div>
+            <button class="bg-yellow-400 text-sm font-semibold hover:bg-yellow-500 p-2 rounded-lg mt-5">
+              <a href="https://tedihanafe.github.io/Web-KedaiKopi/">Go Fissit</a>
+            </button>
+          </div>
+        </div>
+
+        <div class="work4 flex justify-center items-center xl:flex mx-auto" id="work">
+          <div class="work1 text-center pb-20">
+            <div class="w-52"><img src="./img/landing.png" alt="" /></div>
+            <button class="bg-yellow-400 text-sm font-semibold hover:bg-yellow-500 p-2 rounded-lg mt-5">
+              <a href="#">Go Fissit</a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- akhir work -->
+
+    <!-- contak -->
+    <div class="contact pt-24 bg-gray-300" id="contact">
+      <div class="container mx-auto px-4">
+        <h2 data-aos="zoom-in" data-aos-duration="1000" class="text-2xl font-body mb-8 text-center md:text-4xl">CONTACT US</h2>
+        <form id="contactForm" class="w-full max-w-5xl mx-auto">
+          <div class="mb-4">
+            <label class="block text-gray-700 text-sm md:text-xl font-bold mb-2" for="name">Nama:</label>
+            <input class="inputField appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline italic" id="name" type="text" placeholder="Masukkan nama anda..." autocomplete="off" />
+          </div>
+          <div class="mb-4">
+            <label class="block text-gray-700 text-sm md:text-xl font-bold mb-2" for="address">Alamat:</label>
+            <input
+              class="inputField appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline italic"
+              id="address"
+              type="text"
+              placeholder="Masukkan alamat anda..."
+              autocomplete="off"
+            />
+          </div>
+          <div class="mb-4">
+            <label class="block text-gray-700 text-sm md:text-xl font-bold mb-2" for="phone">No HP:</label>
+            <input
+              class="inputField appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline italic"
+              id="phone"
+              type="text"
+              placeholder="Masukkan no hp anda..."
+              autocomplete="off"
+            />
+          </div>
+          <div class="mb-4">
+            <label class="block text-gray-700 text-sm md:text-xl font-bold mb-2" for="message">Pesan:</label>
+            <textarea
+              class="inputField appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline italic"
+              id="message"
+              rows="4"
+              placeholder="Tulis pesan anda..."
+              autocomplete="off"
+            ></textarea>
+          </div>
+          <div class="flex justify-center pb-10">
+            <button
+              id="submitButton"
+              class="bg-slate-700 hover:bg-yellow-400 active:bg-yellow-400 focus:outline-none focus:ring focus:ring-slate-700 py-2 px-3 md:px-7 rounded-2xl text-white hover:text-black items-start xl:text-2xl xl:mt-10"
+              type="button"
+            >
+              Kirim
+            </button>
+          </div>
+        </form>
+      </div>
+
+      <!-- Peta Lokasi -->
+      <div class="map-container p-5">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.203456780218!2d106.55715631476937!3d-6.238683995485048!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f60e4f110d8f%3A0xb477c8ee5ff748e5!2sDS%20Sukamulya%2C%20Cikupa%2C%20Tangerang%2C%20Banten!5e0!3m2!1sen!2sid!4v1628669181327!5m2!1sen!2sid"
+          width="100%"
+          height="400"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+        ></iframe>
+      </div>
+    </div>
+    <!-- akhir contak -->
+
+    <!-- footer -->
+    <footer class="bg-gray-800 text-white py-6">
+      <div class="container mx-auto flex flex-col justify-between items-center px-4">
+        <div class="flex space-x-4 mb-4 md:mx-4">
+          <a href="https://wa.me/62895395316970" target="_blank" rel="noopener noreferrer" class="hover:text-yellow-400 transition duration-300">
+            <i class="fab fa-whatsapp fa-2x"></i>
+          </a>
+          <a href="https://github.com/username" target="_blank" rel="noopener noreferrer" class="hover:text-yellow-400 transition duration-300">
+            <i class="fab fa-github fa-2x"></i>
+          </a>
+          <a href="https://www.instagram.com/username/" target="_blank" rel="noopener noreferrer" class="hover:text-yellow-400 transition duration-300">
+            <i class="fab fa-instagram fa-2x"></i>
+          </a>
+        </div>
+
+        <div class="md:text-xl text-center mx-auto md:flex">
+          &copy; 2023 Your Company. All rights reserved.
+
+          <div class="space-x-2 text-sm italic">
+            <span class="text-yellow-400 md:text-lg"> Made with</span>
+            <i class="fas fa-heart text-red-500"></i>
+            <span class="md:text-lg">by Tedi Hanafiah</span>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- akhir footer -->
+
+    <!-- KUMPULAN JAVA SCRIPTNYA -->
+
+    <!-- animasi AOS -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@3.0.0-beta.6/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <!-- akhir animasi AOS -->
+
+    <!-- animasi gsap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+    <script>
+      gsap.from(".bagsatu img", { duration: 1, rotateY: 360, opacity: 0 });
+      gsap.from(".navbar", { duration: 1.5, y: "-100%", opacity: 0, ease: "bounce" });
+      gsap.from(".conatas", { duration: 2, x: "-100%", opacity: 0, ease: "power2.out", delay: 0.5 });
+      gsap.from(".downcv", { duration: 2, x: "100%", opacity: 0, ease: "power2.out", delay: 1 });
+
+      // Buat timeline untuk animasi zoom in
+      var timeline = gsap.timeline();
+
+      timeline
+        .from(".pabout1", {
+          duration: 1.5,
+          scale: 0.5, // Efek zoom in
+          opacity: 0,
+          ease: "power2.out",
+        })
+        .from(
+          ".pabout2",
+          {
+            duration: 1.5,
+            scale: 0.5, // Efek zoom in
+            opacity: 0,
+            ease: "power2.out",
+          },
+          "-=1.5"
+        ); // Memulai animasi pabout2 setelah pabout1 selesai
+
+      // Menggunakan timeline sebagai trigger ScrollTrigger
+      ScrollTrigger.create({
+        animation: timeline,
+        trigger: ".pabout1",
+        start: "-200px center",
+        end: "center center",
+        toggleActions: "play none none reset",
+      });
+
+      // Buat timeline untuk animasi zoom in work1, work2, work3, dan work4
+      var workTimeline = gsap.timeline();
+
+      workTimeline
+        .from(".work1", {
+          duration: 1.5,
+          scale: 0.5, // Efek zoom in
+          opacity: 0,
+          ease: "power2.out",
+          delay: 0.5, // Tambahkan delay 0.5 detik
+        })
+        .from(
+          ".work2",
+          {
+            duration: 1.5,
+            scale: 0.5, // Efek zoom in
+            opacity: 0,
+            ease: "power2.out",
+            delay: 0.5, // Tambahkan delay 0.5 detik
+          },
+          "-=0.5"
+        ) // Memulai animasi work2 setelah work1 selesai
+        .from(
+          ".work3",
+          {
+            duration: 1.5,
+            scale: 0.5, // Efek zoom in
+            opacity: 0,
+            ease: "power2.out",
+            delay: 0.5, // Tambahkan delay 0.5 detik
+          },
+          "-=0.5"
+        ) // Memulai animasi work3 setelah work2 selesai
+        .from(
+          ".work4",
+          {
+            duration: 1.5,
+            scale: 0.5, // Efek zoom in
+            opacity: 0,
+            ease: "power2.out",
+            delay: 0.5, // Tambahkan delay 0.5 detik
+          },
+          "-=0.5"
+        ); // Memulai animasi work4 setelah work3 selesai
+
+      // Menggunakan timeline workTimeline sebagai trigger ScrollTrigger
+      ScrollTrigger.create({
+        animation: workTimeline,
+        trigger: ".work1", // Ganti trigger sesuai dengan yang sesuai
+        start: "-200px center",
+        end: "center center",
+        toggleActions: "play none none reset",
+      });
+    </script>
+
+    <!-- akhir animasi gsap -->
+
+    <!-- navbar mobile -->
+    <script>
+      const mobileMenuButton = document.getElementById("mobile-menu-button");
+      const mobileMenu = document.getElementById("mobile-menu");
+      const mobileMenuLinks = document.querySelectorAll("#mobile-menu a");
+
+      mobileMenuButton.addEventListener("click", () => {
+        mobileMenu.classList.toggle("hidden");
+      });
+
+      mobileMenuLinks.forEach((link) => {
+        link.addEventListener("click", () => {
+          mobileMenu.classList.add("hidden");
+        });
+      });
+    </script>
+    <!-- akhir navbar mobile -->
+
+    <!-- tulisan animasi ketik -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <script>
+      var typed = new Typed("#typed-text", {
+        strings: ["Tedi Hanafiah", "Web Developer", "Designer Grafis"],
+        typeSpeed: 100,
+        backSpeed: 100,
+        loop: true,
+        onComplete: (self) => {
+          self.cursor.remove();
+          self.options.loop = false; // Menghentikan looping
+        },
+      });
+    </script>
+    <!-- akhir animasi ketikan nulis -->
+
+    <!-- contact -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const submitButton = document.getElementById("submitButton");
+        const form = document.getElementById("contactForm");
+
+        submitButton.addEventListener("click", function () {
+          const fields = ["name", "address", "phone", "message"];
+
+          let valid = true;
+
+          fields.forEach((fieldId) => {
+            const field = document.getElementById(fieldId);
+            if (!field.value) {
+              field.classList.add("border-red-500");
+              valid = false;
+            } else {
+              field.classList.remove("border-red-500");
+            }
+          });
+
+          if (!valid) {
+            alert("Harap isi semua bidang sebelum mengirim pesan.");
+          } else {
+            const message = encodeURIComponent(document.getElementById("message").value);
+            const whatsappLink = `https://wa.me/62895395316970?text=${message}`;
+            window.location.href = whatsappLink;
+          }
+        });
+      });
+    </script>
+    <!-- akhir contact -->
+
+    <!-- scroll smoth -->
+    <script>
+      const smoothScrollLinks = document.querySelectorAll('a[href^="#"]');
+
+      smoothScrollLinks.forEach((link) => {
+        link.addEventListener("click", smoothScroll);
+      });
+
+      function smoothScroll(e) {
+        e.preventDefault();
+
+        const targetId = this.getAttribute("href");
+        const targetSection = document.querySelector(targetId);
+        const targetPosition = targetSection.offsetTop;
+        const startPosition = window.pageYOffset;
+        const distance = targetPosition - startPosition;
+        const duration = 2000; // Durasi scroll dalam milidetik
+        let startTimestamp = null;
+
+        function scrollAnimation(timestamp) {
+          if (!startTimestamp) startTimestamp = timestamp;
+          const elapsed = timestamp - startTimestamp;
+          const progress = Math.min(elapsed / duration, 1);
+          const easing = easeOutQuart(progress);
+          window.scrollTo(0, startPosition + distance * easing);
+          if (elapsed < duration) {
+            window.requestAnimationFrame(scrollAnimation);
+          }
+        }
+
+        function easeOutQuart(t) {
+          return 1 - --t * t * t * t;
+        }
+
+        window.requestAnimationFrame(scrollAnimation);
+      }
+    </script>
+    <!-- akhir scroll smoth -->
+  </body>
+</html>
